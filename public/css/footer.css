@@ -1,0 +1,115 @@
+/* FOOTER CSS */
+
+.footer{
+    width: 90%;
+    margin: 50px auto 0px;
+    border-top: 2px solid var(--color3);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.quick-links .quick-links-heading{
+    width: 90px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--color2);
+}
+.quick-links ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.quick-links ul li{
+    width: 200px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+}
+.quick-links ul li:hover{
+    font-size: 18px;
+}
+.quick-links ul li a{
+    color: black;
+}
+/* .news-letter .news-letter-heading{
+    font-weight: bold;
+    width: 93px;
+    border-bottom: 1px solid var(--color3);
+}
+.news-letter form{
+    display: flex;
+    flex-direction: column;
+}
+.news-letter form input{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    background-color: gainsboro;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.news-letter form input[type="submit"]{
+    background-color: var(--color3);
+    color: white;
+    width: 220px;
+    cursor: pointer;
+}
+.news-letter form input[type="submit"]:hover{
+    background-color: var(--color4);
+} */
+.add-property .add-property-heading{
+    font-weight: bold;
+    width: 105px;
+    border-bottom: 1px solid var(--color3);
+}
+.add-property a p{
+    background-color: var(--color3);
+    text-align: center;
+    line-height: 40px;
+    width: 180px;
+    color: white;
+    border-radius: 5px;
+}
+.add-property a:hover p{
+    background-color: var(--color4);
+}
+.add-property img{
+    margin-left: 30px;
+    height: 100px;
+}
+
+.contact-us-heading{
+    width: 90px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.contact-us p i{
+    color: var(--color3);
+    margin-right: 15px;
+}
+.contact{
+    margin: 0px;
+}
+.follow-social-media{
+    border-bottom: 1px solid var(--color3);
+    margin: 0px;
+    margin-top: 15px;
+}
+.social-media-icons a{
+    color: var(--color3);
+    font-size: 30px;
+}
+.social-media-icons a:hover{
+    color: var(--color4);
+}
+p.copyright{
+    font-size: 14px;
+    border-top: 1px solid var(--color7);
+    width: 300px;
+    text-align: center;
+    margin: 5px auto;
+}

@@ -1,0 +1,104 @@
+
+:root{
+    --color1:gainsboro;
+    --color2:rgb(250,94,37);
+    --color3:gray;
+    --color4:rgb(92, 92, 92);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-up{
+    background-color: #e4e4e4;
+    width: 75%;
+    height: 580px;
+    border-radius: 50px;
+    margin: 0px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.sign-up-image img{
+    height: 500px;
+}
+.signUpForm{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.signUpForm .title{
+    color: #4d5959;
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.signUpForm form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signUpForm form div{
+    display:flex;
+    flex-direction: column;
+}
+.signUpForm form label{
+    padding: 0px 20px 5px;
+    color: #4d5959;
+}
+.signUpForm form input{
+    height: 35px;
+    width: 300px;
+    line-height: 35px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 0px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signUpForm form p{
+    margin: 0px;
+}
+.signUpForm form input[type="submit"]{
+    margin: 10px 0px 20px;
+    background-color: #007074;
+    font-size: 19px;
+    width: 200px;
+    transition: 0.1s;
+    color: white;
+}
+.signUpForm form input[type="submit"]:hover{
+    width: 300px;
+    background-color: var(--color2)
+}
+.signUpForm .display-error{
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color: red;
+}
+.signUpForm form .link-login a{
+    text-decoration: none;
+    color: var(--color2);
+}
+.signUpForm form .link-login a:hover{
+    border-bottom: 1px solid var(--color2);
+    font-weight: bold;
+}

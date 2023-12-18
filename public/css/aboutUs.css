@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Poppins', sans-serif;
+}
+:root{
+    --color1:white;
+    --color2:black;
+    --color3:#FF5A3C;
+    --color4:#fc300c;
+    --color6:rgb(136,165,223);
+    --menu-background:#D9D9D9;
+    --light-green-btn:#69B99D;
+    --dark-green-btn:#38af85;
+}
+a{
+    text-decoration: none;
+}
+
+/* CONTENT RELATED CSS */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.content .content-title{
+    text-align: center;
+    font-size: 30px;
+    width: 170px;
+    margin: 20px auto 30px;
+    border-bottom: 2px solid var(--color3);
+}
+.content .content-img img{
+    background-color: red;
+    width: 1200px;
+    height:550px;
+}
+.aboutus-description{
+    width: 85%;
+    padding: 20px;
+    text-align: justify;
+}
+.aboutus-description .ourStory,.ourVision{
+    font-size: 26px;
+}
+.aboutus-description .ourStory{
+    width: 120px;
+    border-bottom: 2px solid var(--color2);
+}
+.aboutus-description .ourVision{
+    width: 135px;
+    border-bottom: 2px solid var(--color3);
+}
+.aboutus-description ol{
+    margin: 0px;
+    padding-left: 20px;
+}
+.developer{
+    font-size: 28px;
+}
+.members{
+    display: flex;
+    flex-direction: row;
+}
+.member{
+    margin: 0px 30px;
+    width: 250px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid var(--dark-green-btn);
+}
+.member-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.member p{
+    margin: 0px;
+}
+.member-social-platform a{
+    color: var(--dark-green-btn);
+    margin: 5px;
+}

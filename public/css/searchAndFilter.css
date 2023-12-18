@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Poppins', sans-serif;
+}
+:root{
+    --color1:white;
+    --color2:black;
+    --color3:#FF5A3C;
+    --color4:#fc300c;
+    --color6:rgb(136,165,223);
+    --menu-background:#D9D9D9;
+    --light-green-btn:#69B99D;
+    --dark-green-btn:#38af85;
+}
+a{
+    text-decoration: none;
+}
+
+/* IMAGE */
+.below-menu-image{
+    width: 100%;
+}
+
+
+/* CONTENT CSS */
+.content{
+    display: flex; 
+}
+
+
+/* FILTER SECTION CSS */
+.filter-section{
+    border-right: 2px solid black;
+    width: 22%;
+}
+.filter-section-heading{
+    text-align: center;
+    font-size: 28px;
+}
+.filter-form{
+    margin: 0px;
+    padding: 0px 50px;
+}
+.choose-location,.price-range,.property-type,.road-type,.floor{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.choose-location > label,.price-range > label,.road-type > label,.property-type > label,.floor > label{
+    font-size: 20px;
+}
+.choose-location select{
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 17px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+.price-range input{
+    width: 215px;
+}
+.price-range .price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price-range .price p{
+    margin: 0px;
+    font-size: 13px;
+}
+.submit input{
+    width: 215px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: var(--light-green-btn);
+    color: white;
+}
+.submit input:hover{
+    background-color: var(--dark-green-btn);
+}
+
+
+/* RESULT SECTION CSS  */
+.result-section{
+    width: 100%;
+    padding: 0px 50px;
+}
+
+.result-section .result-top-bar{
+    height: 50px;
+    font-size: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.result-top-bar .result-sort{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.result-sort select{
+    margin-left: 15px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 17px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.result-section-content{
+    margin-top: 30px;
+}
+.rooms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.rooms a{
+    color: black;
+}
+.room{
+    width: 270px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    justify-content: top;
+    border: 0.1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px gainsboro;
+    cursor: pointer;
+}
+.room .image-contents{
+    position: relative;
+}
+.room .image-contents img{
+    width: 270px;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+.img-hover-effects{
+    display: none;
+}
+.image-contents:hover .img-hover-effects{
+    display: block;
+}
+.shadow{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0px;
+    width: 270px;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+.view-details{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.favourite-logo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.favourite-logo button{
+    background: none;
+    border: none;
+    outline: none;
+}
+.favourite-logo button i{
+    font-size: 24px;
+    color: white;
+}
+
+
+.title,.location,.price{
+    margin: 0px;
+}
+.title{
+    margin-top: 5px;
+}
+.price{
+    color: var(--color3);
+    font-weight: bold;
+}
+
